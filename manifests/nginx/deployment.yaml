@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: nginx-demo
-          image: gcr.io/rental-dev/nginx-demo:v1
+          image: gcr.io/rental-dev/nginx-demo:v2
           ports:
             - containerPort: 80
           resources:
