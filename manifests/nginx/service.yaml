@@ -1,12 +1,12 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: nginx-app-service
+  name: nginx-demo-service
   labels:
-    run: nginx-app-service
+    run: nginx-demo-service
 spec:
   ports:
-  - port: 80
-    protocol: TCP
+    - port: 80
+      protocol: TCP
   selector:
-    run: nginx-app
+    run: nginx-demo
